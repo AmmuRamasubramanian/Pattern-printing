@@ -1,8 +1,0 @@
-rows=int(input("enter number of rows:"))
-ascii_value=65
-for i in range(rows):
-    chr_value=chr(ascii_value)
-    for j in range(i+1):
-        print(chr_value,end=" ")
-    ascii_value+=1
-    print("\n")
